@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+.link 
+{
+	@apply text-white block p-5 font-bold hover:text-yellow-500
+}
+
+.buttonSpecial 
+{
+	@apply inline-block py-3 px-16 bg-black text-white font-bold border-transparent border-8 text-2xl rounded-3xl hover:border-gray-200 hover:bg-white hover:text-black transition duration-200
+}
+
+.buttonSpecial2 
+{
+	@apply inline-block py-3 px-16 bg-red-500 text-white font-bold border-transparent border-8 text-2xl rounded-3xl hover:border-gray-200 hover:bg-white hover:text-black transition duration-200
+}
+
+.dot
+{
+	@apply h-3 w-3 bg-blue-600 rounded-full;
+}
+
+.boton
+{
+	@apply xl:text-2xl my-4 inline-block py-2 px-16 bg-red-500 text-white font-black border-transparent border-8 rounded-3xl hover:border-gray-200 hover:bg-white hover:text-black transition duration-200
+}
+
+.arrow
+{
+	@apply w-3 h-3 inline-block border-yellow-300 border-solid border-r-4 border-t-4 transition-all duration-200 transform rotate-45;
+}
